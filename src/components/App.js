@@ -1,6 +1,10 @@
 
 import React from "react";
 import './../styles/App.css';
+ import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchLorem } from "./redux/actions";
+
 
 const App = () => {
   return (
@@ -8,10 +12,7 @@ const App = () => {
         {
 
 
-          import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchLorem } from "./redux/actions";
-
+         
 export default function App() {
   const dispatch = useDispatch();
 
